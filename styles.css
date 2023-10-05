@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.about {
+    background-color: #1f2937;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    padding-bottom: 20px;
+}
+
+.about-marvel p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 20px;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.pic-marvel img {
+    width: 500px;
+    height: auto;
+}
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.characters {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.pic {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+
+ figcaption {
+    text-align: center;
+    padding: 10px;
+    color: rgb(70, 67, 67);
+ }
+
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: italic;
+    color: #1f2937;
+}
+.saying {
+    padding-bottom: 20px;
+}
+
+.information {
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: #e5e7eb;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 30px 50px 30px;
+    border-radius: 20px;
+}
+
+.copyright {
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+
+
+
+
+
